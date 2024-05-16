@@ -9,14 +9,14 @@ import fetch from 'node-fetch'
 const defaultMenu = {
   before: `
 ╾━━━━━━━━━━━━━━━━━╼
-⌬ *SALAM 😆:*  %name 
+⌬ *السلام عليكم 👋😆:*  %name 
 ╾━━━━━━━━━━━━━━━━━╼
 %readmore
 `.trimStart(),
   header: '╭─────≼ %category ≽',
   body: '╎≡ %cmd',
   footer: '╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢',
-  after: 'BOBIZA 👑',
+  after: 'A L 3 A M E B O T ❤️',
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
@@ -179,8 +179,8 @@ let tags = {
 	externalAdReply: {
 	title: 'قسم خاص التعديل على الصوتيات ومشتقاته',
 	body: 'اليك الاوامر الخاصة بهذا القسم',
-	thumbnailUrl: 'https://telegra.ph/file/22455a32e324068fa1922.jpg',
-	sourceUrl: 'instagram.com/noureddine_ouafy',
+	thumbnailUrl: 'https://telegra.ph/file/cc6c949df04097d566fad.jpg',
+	sourceUrl: 'https://t.me/AL3AMEABDO',
 	mediaType: 1,
 	renderLargerThumbnail: true
 	}}})
