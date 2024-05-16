@@ -9,7 +9,7 @@ import fetch from 'node-fetch'
 const defaultMenu = {
   before: `
 ╾━━━━━━━━━━━━━━━━━╼
-⌬ *SALAM 😆:*  %name 
+⌬ *السلام عليكم 👋😆:*  %name 
 ╾━━━━━━━━━━━━━━━━━╼
 %readmore
 `.trimStart(),
